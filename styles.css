@@ -1,0 +1,49 @@
+
+.lentete{
+    width: 100%;
+    height: 450px;
+    background-color: gray;
+} 
+
+/*Navbar transparent*/
+.bg-light {
+    background-color: transparent !important;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.lenom{
+    position: absolute;
+    top: 32%;
+    left: 42%;
+    font-size: 3.7rem;
+    color: #fff;
+    z-index: 1000000;
+}
+
+.carousel-inner img{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-size: contain;
+}
+
+#navbarNavAltMarkup{
+    margin-left: 15%;
+}
+
+/*Section intro*/
+.display-4 {
+    font-size: 1.9rem!important;
+}
+
+.intro{
+    margin-top: 3rem;
+    font-size: 1.9rem;
+    text-align: center;
+}
