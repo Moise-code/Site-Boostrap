@@ -1,4 +1,4 @@
-
+/*Home*/
 .lentete{
     width: 100%;
     height: 450px;
@@ -8,6 +8,7 @@
 /*Navbar transparent*/
 .bg-light {
     background-color: transparent !important;
+    z-index: 100000!important;
 }
 
 .carousel-inner {
@@ -19,22 +20,39 @@
 
 .lenom{
     position: absolute;
-    top: 32%;
-    left: 42%;
+    top: 42%;
+    left: 38%;
     font-size: 3.7rem;
     color: #fff;
-    z-index: 1000000;
+    background-color: rgba(0, 0, 0, 0.297);
+    z-index: 10000;
+}
+
+.s-titre{
+    position: absolute;
+    top: 58%;
+    left: 41%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.297);
+    z-index: 10000;
+    font-size: 1.5rem;
 }
 
 .carousel-inner img{
     position: relative;
     width: 100%;
-    height: 450px;
+    height: 28.125rem;
     background-size: contain;
 }
 
 #navbarNavAltMarkup{
     margin-left: 15%;
+}
+
+/*Container lapage*/
+.lapage{
+    margin-top: 6%!important;
+    margin-bottom: 6%!important;
 }
 
 /*Section intro*/
@@ -45,5 +63,305 @@
 .intro{
     margin-top: 3rem;
     font-size: 1.9rem;
+    margin-bottom: 7rem;
     text-align: center;
+}
+
+/*Container lesnews*/
+.lepanel{
+    margin-bottom: 1rem;
+}
+
+.news{
+    margin-bottom: 4rem;
+}
+
+.lesprojets{
+    margin-left: 15%!important;
+}
+
+.gotaprojet{
+    margin-bottom: 10%
+}
+
+.leprojet, .lacarriere{
+    font-size: 1.5rem!important;
+    margin-bottom: 8%;
+}
+
+
+/*About*/
+.about{
+    height: 80rem;
+    margin-top: 2%;
+    margin-bottom: 4rem;
+}
+
+.limage{
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 2.813rem;
+}
+
+.limage img{
+    width: 100%;
+    height: 20rem;
+
+}
+
+.letexte{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 1.25rem;
+    padding-bottom: 5rem;
+}
+
+.joindre{
+    height: 30rem;
+}
+.lead{
+    width: 75%;
+    margin-left: 12%;
+    text-align: center;
+    padding-bottom: 2.2rem;
+}
+
+.ladress{
+    margin-left: 18%;
+}
+
+
+
+
+.jyvais{
+    height: 17rem!important;
+    padding-top: 5%;
+    border: .5px solid #6c63ff;
+    margin-bottom: 1rem;
+}
+
+.maap{
+    height: 17rem!important;
+}
+
+.lebas{
+    height: 2rem;
+}
+
+/*Sérvices*/
+
+.nos{
+    padding-top: 10%;
+    padding-bottom: 2%;
+    color: #6c63ff;
+}
+
+.serv{
+    padding-bottom: 5%;
+}
+
+.lacarte{
+    height: 45rem;
+}
+/*Col user*/
+
+.lencart1{
+    width: 90%;
+    height: 40rem;
+    margin-left: 5%;
+    background-color: #fff;
+    border-radius: .3rem;
+}
+
+.ptitimg{
+    width: 100%;
+    height: 12rem;
+    background-color: #fff;
+}
+
+.ptitimg img{
+    width: 90%;
+    height: 12rem;
+}
+
+.letitre{
+    font-size: 1.1rem;
+    padding-top: 8%;
+    text-align: center;
+
+}
+
+.leprix{
+    text-align: center;
+    color: #6c63ff;
+    padding-top: 5%;
+    padding-bottom: 9%;
+}
+
+.leslistes{
+    margin-left: 17%;
+    line-height: 1.9!important;
+    padding-bottom: 7%;
+}
+
+.lebouton{
+    width: 55%!important;
+    margin-left: 22%!important;
+    background-color: #675ef4!important;
+    border: none!important;
+}
+
+.lebouton:hover{
+    background-color: #f0f0ff!important;
+}
+
+.partenaire{
+    height: 10rem;
+    margin-bottom: 6%;
+}
+
+
+.brand1{
+    width: 6rem;
+    height: 6rem;
+    margin-left: 36%;
+    margin-top: 10%;
+}
+
+.brand2{
+    width: 6rem;
+    height: 6rem;
+    margin-left: 36%;
+    margin-top: 10%;
+}
+
+.brand3{
+    width: 6rem;
+    height: 6rem;
+    margin-left: 36%;
+    margin-top: 10%;
+    
+}
+
+.btn-primary{
+    background-color: #6c63ff!important;
+    border: none!important;
+}
+
+.btn-primary:hover{
+    background-color: #f0f0ff!important;
+    color: #000!important;
+    
+}
+
+.get1{
+    height: 2.813rem;
+    margin-top: 4%;
+}
+
+.fa-linkedin-in, .fa-facebook-f, .fa-instagram, .fa-twitter{
+    color: #6c63ff!important;
+}
+
+.fa-linkedin-in:hover{
+    color: #327ab6!important;
+}
+
+.fa-facebook-f:hover{
+    color: #3f77f2!important;
+}
+
+.fa-instagram:hover{
+    color: #dc274e!important;
+}
+
+.fa-twitter:hover{
+    color: #427bff!important;
+}
+
+/*Team*/
+.lapersonne{
+    color: #6c63ff;
+    text-align: center;
+}
+
+.founder{
+    margin-left: 4rem!important;
+    color: #6c63ff!important;
+}
+
+.lateam{
+    margin-bottom: 6rem;
+}
+
+/*Footer*/
+.lefoot{
+    background-color: #6c63ff;
+    height: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 0rem;
+}
+
+.zefoter{
+    color: #fff;
+    text-align: center;
+    padding-top: 1.1rem;
+    
+}
+
+
+.intouch{
+    padding-bottom: 5%;
+}
+
+
+
+
+/*Média queries*/
+@media screen and (min-width: 100px) and (max-width: 767px){
+    .lacarte{
+        height: 130rem!important;
+    }
+
+    .about{
+        height: 100rem;
+        
+    }
+
+    .leservice{
+        height: 173rem;
+    }
+}
+
+
+
+@media screen and (max-width:576px){
+    .lenom{
+        position: absolute;
+        top: 42%!important;
+        left: 18!important%;
+    }
+    
+    .s-titre{
+        position: absolute;
+        top: 55%!important;
+        left: 28%!important;
+        
+    }
+}
+
+@media screen and (max-width:760px){
+    .lenom{
+        position: absolute;
+        top: 42%!important;
+        left: 28%!important;
+    }
+    
+    .s-titre{
+        position: absolute;
+        top: 55%!important;
+        left: 35%!important;
+        
+    }
 }

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+<g id="Calque_1_1_" display="none">
+</g>
+<g id="Calque_5">
+	<rect fill="#E4012B" width="800" height="800"/>
+</g>
+<g id="Calque_2">
+	<path fill="#E82D3B" d="M195.623,648.168C130.025,584.556,89.259,495.486,89.259,396.896c0-193.291,156.688-349.981,349.98-349.981
+		c193.287,0,349.98,156.691,349.98,349.981c0,96.313-38.905,183.539-101.854,246.821c0,0-194.477-47.564-306.883-25.852
+		c0,0-116.14,9.517-176.858,41.16L195.623,648.168z"/>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="169.8877" y1="480.9072" x2="622.4014" y2="480.9072" gradientTransform="matrix(-4.371139e-08 -1 -1 4.371139e-08 919.5586 785.0063)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.1282" style="stop-color:#FFF9F1"/>
+		<stop  offset="0.3712" style="stop-color:#FFE8CC"/>
+		<stop  offset="0.7003" style="stop-color:#FFCE90"/>
+		<stop  offset="1" style="stop-color:#FFB354"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M336.704,609.447C257.96,571.479,203.628,490.9,203.628,397.63
+		c0-129.801,105.222-235.025,235.026-235.025c129.8,0,235.021,105.222,235.021,235.023c0,88.768-49.214,166.04-121.838,206.023
+		L512.3,615.119"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="237.3086" y1="481.0664" x2="538.75" y2="481.0664" gradientTransform="matrix(4.371139e-08 -1 -1 -4.371139e-08 920.3086 784.9234)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.1626" style="stop-color:#FFFAF1"/>
+		<stop  offset="0.4708" style="stop-color:#FFEDCC"/>
+		<stop  offset="0.889" style="stop-color:#FFD790"/>
+		<stop  offset="1" style="stop-color:#FFD17F"/>
+	</linearGradient>
+	<circle fill="url(#SVGID_2_)" cx="439.243" cy="396.894" r="150.72"/>
+</g>
+<g id="Calque_3">
+	<path fill="#1E1930" d="M326.838,622.978c0,0-62.589-104.739,21.713-250.351c0,0,79.194,104.738,25.546,242.687L326.838,622.978z"
+		/>
+	<path fill="#1E1930" d="M190.564,145.607c0,0-177.942,197.711-24.666,529.808c0,0,30.655-20.438,48.537-25.545
+		C214.436,649.87,349.345,429.438,190.564,145.607z"/>
+	<path fill="none" stroke="#1E1930" stroke-width="10.2184" stroke-linecap="round" stroke-miterlimit="10" d="M76.488,718.773
+		c0,0,259.292-186.485,628.432-65.143"/>
+	<path fill="#1E1930" d="M568.513,121.722c0,0-195.525,206.966-33.474,545.96c0,0,43.682,11.601,62.588,6.387
+		C597.627,674.069,736.38,411.445,568.513,121.722z"/>
+	<path fill="none" stroke="#1E1930" stroke-width="10.2184" stroke-linecap="round" stroke-miterlimit="10" d="M2.404,639.582
+		c0,0,194.15-91.966,461.106-26.973"/>
+</g>
+<g id="Calque_4">
+	<path fill="none" stroke="#1E1930" stroke-width="10.2184" stroke-linecap="round" stroke-miterlimit="10" d="M333.225,680.456
+		c0,0,171.159-58.756,388.3,38.317"/>
+</g>
+</svg>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c4376bcd8b.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <header class="lentete">
+        <!--Début navigation-->
+        <!-- Icon logo -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logo.svg" width="30" height="30" alt="Logo">
+                </a>
+        
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-item nav-link" href="index.html">Home </a>
+                          <a class="nav-item nav-link" href="about.html">About us</a>
+                          <a class="nav-item nav-link" href="service.html">Services</a>
+                          <a class="nav-item nav-link" href="team.html">Team</a>
+                          <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                          
+                        </div>
+                      </div>
+        </nav>
+        <!--Fin navigation-->
+
+        <!--Début caroussel-->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <h1 class="lenom">Nomansland</h1>
+                  <div class="carousel-item active">
+                    <img src="images/header1.svg" class="d-block w-100" alt="Working in front of a swimming pool">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/header1.svg" class="d-block w-100" alt="Boussole">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/header1.svg" class="d-block w-100" alt="Working outside">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        <!--Fin caroussel-->
+    </header>
+
+    <!--Début Contact-->
+    <div class="container">
+        <h2 class="nos">Contact</h2>
+        <p class="intouch">
+            Vous avez un projet ?, vous voulez devenir l'un de nos membre ?,
+            Vous passiez par là et vous vouliez nous dire bonjour ?
+        </p>
+       
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="First name">First name</label>
+                <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="Last name">Last name</label>
+                <input type="text" class="form-control" placeholder="Last name">
+            </div>
+        </div>
+              
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputState">Project or Carrer</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Got a project ? Want to work with us ?</option>
+                    <option class="aproject" value="project">Project</option>
+                    <option class="taf" value="Enfant">Carrer</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+
+        <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="City">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputState">Country</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Choose a country</option>
+                    <option>Germany</option>
+                    <option>United kingdom</option>
+                    <option>Belgium</option>
+                    <option>France</option>
+                    <option>Sweden</option>
+                    
+                    <option>Canada</option>
+                    <option>USA</option>
+                    <option>Mexico</option>
+                    <option>Argentina</option>
+                    <option>Brazil</option>
+
+                    <option>China</option>
+                    <option>New-zeland</option>
+                    <option>Australia</option>
+                    <option>Japan</option>
+                    <option>Israël</option>
+
+                    <option>South Africa</option>
+                    <option>Angola</option>
+                    <option>Côte d'ivoire</option>
+                    <option>Kenya</option>
+                    <option>Sénégal</option>
+
+                </select>
+            </div>
+
+            <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip" placeholder="Zip code">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary"><i class="fas fa-rocket"></i>Envoyer</button>
+
+        <div class="row reseau">
+            <div class="col-xs-12 col-md-4 get1">
+                <div class="sociaux1"><a href="#"><i class="fab fa-facebook-f fa-2x"></i></a></div>
+            </div>
+            <div class="col-xs-12 col-md-4 get1">
+                <div class="sociaux1"><a href="https://www.linkedin.com/in/mo%C3%AFse-nsengiyumva-56593758/"><i class="fab fa-linkedin-in fa-2x"></i></a></div>
+            </div>
+            <div class="col-xs-12 col-md-4 get1">
+                <div class="sociaux1"><a href="#"><i class="fab fa-instagram fa-2x"></i></a></div>
+            </div>
+        </div>        
+        
+    </div>
+    <footer class="lefoot">
+        <p class="zefoter">©2019www.Nomansland.com</p>
+    </footer>
+    
+    
+
+
+    
+
+    
+
+
+    <!--Jquery code-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
